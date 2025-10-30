@@ -1,0 +1,266 @@
+body {
+    font-family: Roboto, Nunito, Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    background-color: #4682b4;
+}
+
+footer {
+    padding: .5rem;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        color: whitesmoke;
+        margin-left: 15px;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    img {
+        border-radius: 2px;
+        box-shadow: 0 0 10px #ccc;
+    }
+}
+
+h2 {
+    background-color: #4682b4;
+    color: whitesmoke;
+    padding: 5px;
+    text-align: center;
+}
+
+.total-credits {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem;
+    text-align: center;
+}
+
+.credits-color {
+    color: #e70619;
+}
+
+.city-image-fig {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 250px;
+        height: 300px;
+    }
+
+    figcaption {
+        text-align: center;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+}
+
+main {
+    padding: 0 10px;
+}
+
+.course-filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    li {
+        color: #f5f5f5;
+        background-color: #000;
+        min-width: 150px;
+        border-radius: 4px;
+        margin: 2.5px;
+        padding: 8px;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    li:hover {
+        cursor: pointer;
+        color: #84d6e1;
+        text-decoration: underline;
+        transition: 400ms ease-in-out;
+    }
+}
+
+.course-list-container {
+    display: block;
+
+    li {
+        list-style-type: none;
+        text-align: center;
+        /* color: #f5f5f5; */
+        /* background-color: #4e1805; */
+        margin: 10px 0;
+        margin-left: -38px;
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: 700;
+        /* width: 100%; */
+    }
+
+    li:nth-child(4),
+    li:nth-child(6) {
+        /* background-color: #ccc; */
+        /* color: #000; */
+        border: 1px solid #333;
+    }
+
+    li:hover {
+        cursor: pointer;
+        color: #84d6e1;
+        text-decoration: underline;
+        transition: 400ms ease-in-out;
+    }
+
+        li:nth-child(4):hover,
+        li:nth-child(6):hover {
+            color: rebeccapurple;
+            transition: 400ms ease-in-out;
+        }
+}
+
+footer {
+    display: block;
+
+    p, #cureentyear {
+        color: whitesmoke;
+    }
+
+    #lastModified {
+        color: #cce819;
+        text-align: center;
+    }
+
+    .year-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 32px;
+        height: 20px;
+        margin-left: 10px;
+    }
+}
+
+.nav-container {
+    display: flex;
+    justify-content: right;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #333;
+    color: #fff;
+}
+
+.navigation a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation a:hover {
+    background-color: #bbb;
+    color: #333;
+}
+
+#hamburger {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    color: #eee;
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+}
+
+#hamburger::before {
+    /* content: "≡"; */
+    content: "☰";
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.show a {
+    display: block;
+    /* background-color: #bbb;
+    color: #333; */
+}
+
+#hamburger.show::before {
+    content: "❌";
+}
+
+#course-details {
+    max-width: 350px;
+    background-color: #ccc;
+    border-radius: 20px;
+}
+
+/* .active::before {
+    content: "📍";
+} */
+
+/* #menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #333;
+    color: #fff;
+}
+
+.navigation a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation a:hover {
+    background-color: #bbb;
+    color: #333;
+    font-weight: 700;
+} */

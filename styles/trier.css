@@ -1,0 +1,22 @@
+main {
+    text-align: center;
+    background-color: #ccc;
+    width: 400px;
+    margin: 5px auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#current-temp {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+#weather-icon {
+    height: 120px;
+    width: 120px;
+}
+
+figcaption {
+    text-transform: capitalize;
+}
