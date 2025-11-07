@@ -20,9 +20,9 @@
         "membershipLevel": 3
     },
     {
-        "name": "ZeroTen Hub",
-        "address": "5 Oddy Ogbaga Avenue, Abakaliki Ebonyi State",
-        "phone": "(234) 803-877-4787",
+        "name": "RockTen Hub",
+        "address": "5 Goddy Ogbaga Avenue, Abakaliki Ebonyi State",
+        "phone": "(234) 8033-444-845",
         "url": "https://zerotentechhub.com/",
         "image": "./images/temporary-logo.png",
         "membership": "Member",
@@ -50,7 +50,7 @@
         "membershipLevel": 1
     },
     {
-        "name": "BigBrothers Electronics",
+        "name": "Ben Bros Electronics",
         "address": "8 Ezza Road, Abakaliki Ebonyi State",
         "phone": "(234) 706-613-3703",
         "url": "https://zerotentechhub.com/",
@@ -61,7 +61,7 @@
     {
         "name": "Rita Rite Fashion Home",
         "address": "9/10 Chiboy Street, Democracy Estate, Abakaliki Ebonyi State",
-        "phone": "(234) 803-877-4787",
+        "phone": "(234) 8125-711-999",
         "url": "https://zerotentech.com/",
         "image": "./images/company-logo.png",
         "membership": "Silver",
