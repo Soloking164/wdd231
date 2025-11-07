@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Giving information about available courses to our students is a top priority to us. This page gives a detailed information about our courses to our students">
+    <meta name="Author" content="Eze Solomon Nwaka">
+    <meta property="og:title" content="WDD231">
+    <meta property="og:description" content="Discover the innovative world of chamber of commerce and place for sale or order to buy any product of yiur choice, plus explore entertainment and expert sales support">
+    <meta property="og:image" content="favicon.ico">
+    <meta property="og:url" content="https://www.abakalikichamberofcomm.com.ng">
+    <title>Abakaliki Chamber of Commerce - WDD231</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/join.css">
+
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-name-container">
+            <img src="images/temporary-logo.png" alt="Abakaliki Chamber of Commerce logo" width="60" height="60">
+            <div>
+                <h2>Abakaliki</h2>
+                <p>Chamber of Commerce</p>
+            </div>
+        </div>
+        <div class="nav-theme-container">
+            <nav class="navigation">
+                <a href="index.html" title="Home" class="home">Home</a>
+                <a href="discover.html" title="Discover" class="discover">Discover</a>
+                <a href="directory.html" title="Directory" class="directory">Directory</a>
+                <a href="join.html" title="Join" class="join">Join</a>
+            </nav>
+            <img src="images/dark-theme.png" alt="dark theme" class="dark-theme" width="18" height="18">
+            <a href="#" id="hamburger"></a>
+        </div>   
+    </header>
+    <main>
+        <h1>Join</h1>
+        <form action="thankyou.html" method="get">
+            <h2>Membership Application Form</h2>
+            <label>
+                First Name:
+                <input type="text" name="firstName" title="First Name" autocomplete="given-name" required>
+            </label>
+            <label>
+                Last Name:
+                <input type="text" name="lastName" title="Last Name" autocomplete="family-name" required>
+            </label>
+            <label>
+                Title:
+                <input type="text" name="organizationTitle" title="Organizational Title" autocomplete="organization-title"
+                    pattern="[a-zA-Z\s-]{7,}">
+            </label>
+            <label>
+                Email:
+                <input type="email" name="email" title="Email" autocomplete="email" placeholder="nobody23@gmail.com" required>
+            </label>
+            <label>
+                Mobile Phone Number:
+                <input type="tel" name="mobilePhoneNumber" title="Mobile Phone Number" autocomplete="tel" required>
+            </label>
+            <label>
+                Organization:
+                <input type="text" name="organizationName" title="Business/Organization Name" autocomplete="organization"
+                    required>
+            </label><label>
+                Business Description:
+                <textarea name="organizationDescription" title="Business/Organization Description" placeholder="Type here..."></textarea>
+            </label>
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label><input type="radio" name="non-profit" id="nonProfit">Non Profit Membership</label>
+                <label><input type="radio" name="non-profit" id="bronze">Bronze Membership</label>
+                <label><input type="radio" name="non-profit" id="silver">Silver Membership</label>
+                <label><input type="radio" name="non-profit" id="gold">Gold Membership</label>
+            </fieldset>
+            <!-- <label>                
+                <select name="membershipLevel" title="Membership Level">
+                    <option value="NP">Non Profit Membership</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>                
+            </label> -->
+            
+            <input type="hidden" name="timestamp" id="timestamp" value="">
+            <button type="submit" class="button">Apply for Membership</button>
+        </form>
+        <section class="membership-cards">
+            <h2>Membership Levels</h2>
+            <div class="card">
+                <h2>Non Profit Membership Level</h2>
+                <a href="#" class="learn-more np-learn-more" data-modal="np-modal">Learn More</a>
+            </div>
+            <div class="card">
+                <h2>Bronze Membership Level</h2>
+                <a href="#" class="learn-more bronze-learn-more" data-modal="bronze-modal">Learn More</a>
+            </div>
+            <div class="card">
+                <h2>Silver Membership Level</h2>
+                <a href="#" class="learn-more silver-learn-more" data-modal="silver-modal">Learn More</a>
+            </div>
+            <div class="card">
+                <h2>Gold Membership Level</h2>
+                <a href="#" class="learn-more gold-learn-more" data-modal="gold-modal">Learn More</a>
+            </div>
+        </section>
+        <!-- Modals -->
+        <dialog id="np-modal">
+            <h2>NP Membership Benefits</h2>
+            <ul>
+                <li>Special events that caters for the needs of your customers</li>
+                <li>Training</li>
+                <li>Event discounts</li>
+            </ul>
+            <button class="close-modal np-modal">❌</button>
+        </dialog>
+        <dialog id="bronze-modal">
+            <h2>Bronze Membership Benefits</h2>
+            <ul>
+                <li>Special events that caters for the needs of your customers</li>
+                <li>Training</li>
+                <li>Event discounts</li>
+                <li>Advertising</li>
+            </ul>
+            <button class="close-modal bronze-modal">❌</button>
+        </dialog>
+        <dialog id="silver-modal">
+            <h2>Silver Membership Benefits</h2>
+            <ul>
+                <li>Special events that caters for the needs of your customers</li>
+                <li>Training</li>
+                <li>Event discounts</li>
+                <li>Advertising</li>
+                <li>Spotlight positions on the home page</li>
+            </ul>
+            <button class="close-modal silver-modal">❌</button>
+        </dialog>
+        <dialog id="gold-modal">
+            <h2>Gold Membership Benefits</h2>
+            <ul>
+                <li>Special events that caters for the needs of your customers</li>
+                <li>Training</li>
+                <li>Event discounts</li>
+                <li>Advertising</li>
+                <li>Spotlight positions on the home page</li>
+                <li>FREE flight ticket to the Bahamas once a year</li>
+            </ul>
+            <button class="close-modal gold-modal">❌</button>
+        </dialog>
+    </main>
+    <footer>
+        <div class="chamber-address-container">
+            <h4>Abakaliki Chamber of Commerce</h4>
+            <address>
+                <p>13 Chiboy Street</p>
+                <p>Democracy Estate</p>
+                <p>Abakaliki</p>
+                <p>Ebonyi State, Nigeria</p>
+                <p>info@abakalikicc.org</p>
+                <P>(+234) 7037-187-014</P>
+            </address>
+        </div>
+       <div class="socials-container">
+            <a href="https//www.youtube.com/">
+                <img src="images/youtube-icon.png" alt="YouTube logo" width="60" height="60">
+            </a>
+            <a href="https://www.twitter.com">
+                <img src="images/twitter-icon.png" alt="Twitter/X logo" width="60" height="60">
+            </a>
+            <a href="https://www.linkedin.com/">
+                <img src="images/linkedin-icon.png" alt="LinkedIn logo" width="60" height="60">
+            </a>
+       </div>
+       <div class="last-mod-container">
+            <p>WDD231 Class Project</p>
+            <p>Eze Solomon Nwaka</p>
+            <p>&copy;<span id="currentyear"></span> Abakaliki Chamber of Commerce</p>
+            <p id="lastModified" class="yellow modified"></p>
+       </div>
+    </footer>
+</body>
+
+</html>

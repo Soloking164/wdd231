@@ -1,0 +1,303 @@
+body {
+    font-family: Roboto, Nunito, Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ccc;
+    padding: 10px;
+    .logo-name-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        img {
+            margin-right: 10px;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h2, p {
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+    nav a {
+        text-decoration: none;
+        margin: 5px;
+        color: #000;
+        padding: 5px 10px;
+    }
+
+        nav a:hover {
+            text-decoration: underline;
+            color: #f305b3;
+            transition: 400ms ease-in-out;
+        }
+}
+
+.navigation {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #eee;
+    color: #000;
+}
+
+#hamburger {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem 0.5rem 0;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+}
+
+#hamburger::before {
+    /* content: "≡"; */
+    content: "☰";
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.show a {
+    display: block;
+    /* background-color: #bbb;
+    color: #333; */
+}
+
+#hamburger.show::before {
+    content: "❌";
+}
+
+.dark-theme {
+    display: block;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+.hero-section {
+    position: relative;
+    img {
+        display: block;
+        width: 100%;
+        height: 200px;
+        margin: 0 auto;
+    }
+}
+
+.keynote-btn {
+    background-color: whitesmoke;
+    color: #000;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #25dada;
+    font-size: 1.2rem;
+    position: absolute;
+    right: 80px;
+    top: 150px;
+}
+
+.keynote-btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h1, .event-weather-section, .business-card-section {
+    margin: 13px auto;
+}
+
+.event-weather-section div {
+    min-height: 150px;
+    margin: 5px 0;
+    background-color: #ccc;
+    h3 {
+        text-align: center;
+        background-color: #2b2929;
+        color: whitesmoke;
+        padding: 4px;
+    }
+
+    p {
+        padding: 6px;
+    }
+}
+
+.business-card-section {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.business-name-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    h3, p {
+        margin: 3px;
+        padding: 3px;
+        text-align: center;
+    }
+}
+
+.business-details-container {
+    display: flex;
+    padding: 10px;
+    img {
+        margin-right: 10px;
+        box-shadow: 0 0 15px #333;
+        border-radius: 3px;
+    }
+    p {
+        margin: 0;
+        padding: 0;
+        span:nth-Child(1) {
+            font-weight: 600;
+            margin-right: 5px;
+        }
+    }
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.weather-info-container {
+    display: flex;
+    flex-direction: column;
+    .current-temperature {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    h3 {
+        grid-column: 1/4;
+        margin-top: 0;
+    }
+
+    p {
+        line-height: 0;
+        /* margin-left: -10rem; */
+    }
+
+    .weather-info {
+        display: flex;
+        justify-content: left;
+        margin-left: 10px;
+        img {
+            margin-top: -18px;
+            height: 135px;
+            width: 100px;
+        }
+    }
+}
+
+.forecast-info-container p {
+    margin-left: 10px;
+    font-size: 1.3rem;
+    span {
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+}
+
+footer {
+    background-color: #ccc;
+    padding: 8px;
+    border-radius: 0 0 20px 20px;
+    .socials-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+            margin: 15px;
+        }
+        img {
+            border-radius: 50%;
+        }
+    }
+
+    .chamber-address-container {
+        h4, p {
+            margin: 2px;
+            padding: 2px;
+        }
+    }
+
+    .last-mod-container p{
+        margin: 2px;
+        padding: 2px;        
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        background-color: #e5dfdf;
+        a {
+            color: #000;
+        }
+
+        a:hover {
+            color: #6c00d7;
+        }
+    }
+
+    .nav-theme-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    h1, .event-weather-section, .business-card-section {
+        width: 85%;
+        margin: 13px auto;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border-radius: 0;
+        align-items: center;
+    }
+
+    .business-card-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 90%;
+        margin: 13px auto;
+    }
+
+    .event-weather-section {
+        display: grid;
+        grid-template-columns: 1fr 280px 280px;
+        grid-gap: 10px;
+        div {
+            position: relative;
+            h3 {
+                margin-top: -4px;
+            }
+        }
+    }
+}

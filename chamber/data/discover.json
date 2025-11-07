@@ -1,0 +1,57 @@
+[ 
+    {
+        "title": "Emene Industrial Park",
+        "image": "../images/afikpo.webp",
+        "address": "Afikpo Ebonyi, Abakaliki",
+        "description": "A hub for industrial activities in Ebonyi State, Nigeria"
+    },
+    {
+        "title": "Ebonyi, Abakaliki Main Market",
+        "image": "../images/international-market.webp",
+        "address": "Abakaliki",
+        "description": "A bustling marketplace for local goods"
+    },
+    {
+        "title": "Alex Ekweme Federal University, Ndufu Alike Ikwo (AE-FUNAI, Abakaliki Ebonyi State",
+        "image": "../images/ae-funai.JPG",
+        "address": "Abakaliki",
+        "description": "A premier Institution of higher learning"
+    },
+    {
+        "title": "Monabliz Hotel, Abakaliki",
+        "image": "../images/hotel-monabliz.webp",
+        "address": "Abakaliki",
+        "description": "A luxury hotel with modern amenities"
+    },
+    {
+        "title": "Abakaliki Stadium",
+        "image": "../images/abakaliki-stadium.webp",
+        "address": "Abakaliki",
+        "description": "A venue for sports and entertainment events"
+    },
+    {
+        "title": "Ebonyi State Government House",
+        "image": "../images/govt-house.webp",
+        "address": "Abakaliki",
+        "description": "The seat of government for Ebonyi State"
+    },
+    {
+        "title": "Abakaliki Crafts Market",
+        "image": "../images/centenary-city.webp",
+        "address": "Abakaliki",
+        "description": "A marketplace for local crafts and artisans"
+    },
+    {
+        "title": "Ebonyi State Library",
+        "image": "../images/state-library.webp",
+        "address": "Abakaliki",
+        "description": "A repository of knowledge and information"
+    },
+    {
+        "title": "Centinary City Boulevard",
+        "image": "../images/centenary-city.webp",
+        "address": "Abakaliki",
+        "description": "A premier estate for luxury"
+    }
+
+]

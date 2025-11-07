@@ -1,0 +1,81 @@
+[
+    {
+        "name": "ZeroTen Hub",
+        "address": "13 Chiboy Street, Democracy Estate, Abakaliki Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "url": "https://zerotentechhub.com/",
+        "image": "./images/temporary-logo.png",
+        "membership": "Member",
+        "tag": "Business as Unusual",
+        "membershipLevel": 1
+    },
+    {
+        "name": "RentHub 360",
+        "address": "36 Chiboy Street, Democracy Estate, Abakaliki Ebonyi State",
+        "phone": "(234) 708-653-3709",
+        "url": "https://renthub360.com/",
+        "image": "./images/beauty-logo.jpeg",
+        "membership": "Gold",
+        "tag": "Business as Unusual",
+        "membershipLevel": 3
+    },
+    {
+        "name": "ZeroTen Hub",
+        "address": "5 Oddy Ogbaga Avenue, Abakaliki Ebonyi State",
+        "phone": "(234) 803-877-4787",
+        "url": "https://zerotentechhub.com/",
+        "image": "./images/temporary-logo.png",
+        "membership": "Member",
+        "tag": "Tech at its Peak",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Tech4Wealth Inc.",
+        "address": "23 Umunze Street, WatreWorks, Abakaliki Ebonyi State",
+        "phone": "(234) 803-877-4787",
+        "url": "https://tech4wealth.com/",
+        "image": "./images/advancedpage-logo.jpeg",
+        "membership": "Gold",
+        "tag": "Tech for Prosperity",
+        "membershipLevel": 3
+    },
+    {
+        "name": "3MTT Pro",
+        "address": "85 Udensi Roundabout, Kpirikpiri, Abakaliki Ebonyi State",
+        "phone": "(234) 803-877-4787",
+        "url": "https://zerotentechhub.com/",
+        "image": "./images/simbri-logo.jpeg",
+        "membership": "Member",
+        "tag": "Make Nigeria Great Again",
+        "membershipLevel": 1
+    },
+    {
+        "name": "BigBrothers Electronics",
+        "address": "8 Ezza Road, Abakaliki Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "url": "https://zerotentechhub.com/",
+        "image": "./images/astra-logo.png",
+        "membership": "Member",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Rita Rite Fashion Home",
+        "address": "9/10 Chiboy Street, Democracy Estate, Abakaliki Ebonyi State",
+        "phone": "(234) 803-877-4787",
+        "url": "https://zerotentech.com/",
+        "image": "./images/company-logo.png",
+        "membership": "Silver",
+        "tag": "Make Nigeria Great Again",
+        "membershipLevel": 2
+    },
+    {
+        "name": "Annex Building Materials",
+        "address": "Block 12, Lot 4, International Market, Abakaliki Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "url": "https://amasonannexbuildingmaterialslimited.com/ironrod",
+        "image": "./images/business-logo.jpeg",
+        "membership": "Member",
+        "tag": "Strength is our PRIDE",
+        "membershipLevel": 1
+    }
+]
