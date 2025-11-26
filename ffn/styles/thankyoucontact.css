@@ -1,0 +1,17 @@
+.h1 {
+    color: green;
+    font-style: italic;
+}
+
+.thankyou-main {
+    background: papayawhip;
+    padding: 1rem 1rem 3rem 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 1rem;
+
+}

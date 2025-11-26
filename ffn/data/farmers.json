@@ -1,0 +1,201 @@
+[
+    {
+        "name": "Nwali Oketa Okeh",
+        "address": "23 Angwan Haske, Baissa, Taraba State",
+        "phone": "(234) 703-344-4845",
+        "email": "nwalioketa123@gmail.com",
+        "image": "./images/farmer-1.jpeg",
+        "membership": "Gold",
+        "tag": "Rice Bulldozer",
+        "membershipLevel": 3
+    },
+    {
+        "name": "Mr. Silas Kefas",
+        "address": "Baissa, Kurmi L.G.A, Taraba State",
+        "phone": "(234) 708-653-3709",
+        "email": "silaskef4@gmail.com",
+        "image": "./images/farmer-2.jpeg",
+        "membership": "Gold",
+        "tag": "Akwai Echafuju",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Hajia Danjuma Ugota",
+        "address": "Gwanda, Kurmi L.G.A, Taraba State",
+        "phone": "(234) 803-841-4732",
+        "email": "https://zerotentechhub.com/",
+        "image": "./images/farmer-3.jpeg",
+        "membership": "Member",
+        "tag": "Food is Wealth",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Mr. Adamu Mainasara",
+        "address": "Koncha, Kurmi L.G.A, Taraba State",
+        "phone": "(234) 706-613-3703",
+        "email": "adamm28@gmail.com",
+        "image": "./images/farmer-4.jpeg",
+        "membership": "Gold",
+        "tag": "Arziki da Noma",
+        "membershipLevel": 3
+    },
+    {
+        "name": "Miss Abigail Gambo",
+        "address": "Ndaforo, Kurmi L.G.A, Taraba State",
+        "phone": "(234) 706-613-3703",
+        "email": "abigambit@gmail.com",
+        "image": "./images/farmer-5.jpeg",
+        "membership": "Member",
+        "tag": "Farming for Prosperity",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Mr Bako Ayuba",
+        "address": "8 Ezza Road, Abakaliki Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "email": "bakoayu@gmail.com",
+        "image": "./images/farmer-6.jpeg",
+        "membership": "Member",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Mallam Badamasi Basira",
+        "address": "129 Gosa Toge, Abuja",
+        "phone": "(234) 706-613-3703",
+        "email": "bbasira@gmail.com",
+        "image": "./images/farmer-7.jpeg",
+        "membership": "Silver",
+        "tag": "Make Nigeria Great Again",
+        "membershipLevel": 2
+    },
+    {
+        "name": "Maazi Basil Chukwu",
+        "address": "Ikwo, Abakaliki L.G.A, Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "email": "basilc@gmail.com",
+        "image": "./images/farmer-8.jpeg",
+        "membership": "Member",
+        "tag": "Farming is my PRIDE",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Miss Charity Musa",
+        "address": "Amburu, Kurmi L.G.A, Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "email": "basilc@gmail.com",
+        "image": "./images/farmer-9.jpeg",
+        "membership": "Member",
+        "tag": "Farming is my PRIDE",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Maazi Basil Chukwu",
+        "address": "Ikwo, Abakaliki L.G.A, Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "email": "basilc@gmail.com",
+        "image": "./images/farmer-10.jpeg",
+        "membership": "Member",
+        "tag": "Farming is my PRIDE",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Maazi Basil Chukwu",
+        "address": "Ikwo, Abakaliki L.G.A, Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "email": "basilc@gmail.com",
+        "image": "./images/farmer-11.jpeg",
+        "membership": "Member",
+        "tag": "Farming is my PRIDE",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Maazi Basil Chukwu",
+        "address": "Ikwo, Abakaliki L.G.A, Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "email": "basilc@gmail.com",
+        "image": "./images/farmer-12.jpeg",
+        "membership": "Member",
+        "tag": "Farming is my PRIDE",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Maazi Basil Chukwu",
+        "address": "Ikwo, Abakaliki L.G.A, Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "email": "basilc@gmail.com",
+        "image": "./images/farmer-13.jpeg",
+        "membership": "Member",
+        "tag": "Farming is my PRIDE",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Maazi Basil Chukwu",
+        "address": "Ikwo, Abakaliki L.G.A, Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "email": "basilc@gmail.com",
+        "image": "./images/farmer-14.jpeg",
+        "membership": "Member",
+        "tag": "Farming is my PRIDE",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Maazi Basil Chukwu",
+        "address": "Ikwo, Abakaliki L.G.A, Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "email": "basilc@gmail.com",
+        "image": "./images/farmer-15.jpeg",
+        "membership": "Member",
+        "tag": "Farming is my PRIDE",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Maazi Basil Chukwu",
+        "address": "Ikwo, Abakaliki L.G.A, Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "email": "basilc@gmail.com",
+        "image": "./images/farmer-16.jpeg",
+        "membership": "Member",
+        "tag": "Farming is my PRIDE",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Maazi Basil Chukwu",
+        "address": "Ikwo, Abakaliki L.G.A, Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "email": "basilc@gmail.com",
+        "image": "./images/farmer-17.jpeg",
+        "membership": "Member",
+        "tag": "Farming is my PRIDE",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Maazi Basil Chukwu",
+        "address": "Ikwo, Abakaliki L.G.A, Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "email": "basilc@gmail.com",
+        "image": "./images/farmer-18.jpeg",
+        "membership": "Member",
+        "tag": "Farming is my PRIDE",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Maazi Basil Chukwu",
+        "address": "Ikwo, Abakaliki L.G.A, Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "email": "basilc@gmail.com",
+        "image": "./images/farmer-19.jpeg",
+        "membership": "Member",
+        "tag": "Farming is my PRIDE",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Maazi Basil Chukwu",
+        "address": "Ikwo, Abakaliki L.G.A, Ebonyi State",
+        "phone": "(234) 706-613-3703",
+        "email": "basilc@gmail.com",
+        "image": "./images/farmer-20.jpeg",
+        "membership": "Member",
+        "tag": "Farming is my PRIDE",
+        "membershipLevel": 1
+    }
+]

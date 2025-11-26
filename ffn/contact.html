@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Giving information about available courses to our students is a top priority to us. This page gives a detailed information about our courses to our students">
+    <meta name="Author" content="Eze Solomon Nwaka">
+    <meta property="og:title" content="WDD231">
+    <meta property="og:description"
+        content="Discover the innovative world of chamber of commerce and place for sale or order to buy any product of yiur choice, plus explore entertainment and expert sales support">
+    <meta property="og:image" content="favicon.ico">
+    <meta property="og:url" content="https://www.abakalikichamberofcomm.com.ng">
+    <title>Meet Our Farmers - WDD231</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/contact.css">
+
+    <script src="scripts/index.js" defer></script>
+    <script src="scripts/farmers.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-name-container">
+            <img src="images/z-splash.png" alt="Abakaliki Chamber of Commerce logo" width="60" height="60">
+            <div>
+                <h2>Farm Fresh</h2>
+                <p>Naija</p>
+            </div>
+        </div>
+        <div class="nav-theme-container">
+            <a href="#" id="hamburger"></a>
+            <nav class="navigation">
+                <a href="index.html" title="Home" class="home">Home</a>
+                <a href="farmers.html" title="Farmers" class="discover">Farmers</a>
+                <a href="join.html" title="Join Us" class="directory">Join Us</a>
+                <a href="contact.html" title="contact Us" class="join">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <section>
+            <h2 class="hear">Let's hear from you</h2>
+            <div class="user-section">
+                <form action="thankyoucontact.html" method="get">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <div>
+                            <label>Name*: <input type="text" name="username" id="username" required></label>                            
+                        </div>
+                        <label>Email*: <input type="email" name="email" id="email" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Purpose of contacting us</legend>
+                        <div class="flex">                            
+                            <label><input type="radio" name="purpose" id="general-enquiry"> General Enquiry</label>
+                        </div>
+                        <div class="flex">                            
+                            <label><input type="radio" name="purpose" id="reservation"> Farm Produce Question</label>
+                        </div>
+                        <div class="flex">                            
+                            <label><input type="radio" name="purpose" id="suggestion"> Website Suggestion</label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="message">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="4" placeholder="Type message here..."></textarea>
+                    </fieldset>
+                    <fieldset class="subscribe-field flex">
+                        
+                        <label for="subscrbe"><input type="checkbox" name="subscrbe" id="subscrbe"> Please subscribe me to the monthly newsletter</label>
+                    </fieldset>
+                    <div class="submit-btn-container">
+                        <button type="submit">Send My Message</button>
+                    </div>
+                </form>
+            </div>        
+        </section>
+    </main>
+    <footer>
+        <div class="chamber-address-container">
+            <h4>Farm Fresh Naija</h4>
+            <address>
+                <p>13 Chiboy Street</p>
+                <p>Democracy Estate</p>
+                <p>Abakaliki</p>
+                <p>Ebonyi State, Nigeria</p>
+                <p>info@farmfreshnaija.org</p>
+                <P>(+234) 8051-337-03</P>
+            </address>
+        </div>
+        <div class="socials-container">
+            <a href="https//www.youtube.com/">
+                <img src="images/YouTube-logo.jpeg" alt="YouTube logo" width="60" height="60">
+            </a>
+            <a href="https://www.twitter.com">
+                <img src="images/facebook-icon.webp" alt="facebook logo" width="60" height="60">
+            </a>
+            <a href="https://www.linkedin.com/">
+                <img src="images/tiktok-icon.webp" alt="Tiktok logo" width="60" height="60">
+            </a>
+        </div>
+        <div class="last-mod-container">
+            <p>WDD231 Individual Project</p>
+            <p>Eze Solomon Nwaka</p>
+            <p>&copy;<span id="currentyear"></span> Farm Fresh Naija</p>
+            <p id="lastModified" class="yellow modified"></p>
+            <p>Video <a href="https://www.loom.com/share/065f71bc72ad4f128767a275891b3696" class="video-link">Link</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

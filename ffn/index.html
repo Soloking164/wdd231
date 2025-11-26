@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Giving information about available courses to our students is a top priority to us. This page gives a detailed information about our courses to our students">
+    <meta name="Author" content="Eze Solomon Nwaka">
+    <meta property="og:title" content="WDD231">
+    <meta property="og:description"
+        content="Discover the innovative world of chamber of commerce and place for sale or order to buy any product of yiur choice, plus explore entertainment and expert sales support">
+    <meta property="og:image" content="favicon.ico">
+    <meta property="og:url" content="https://www.abakalikichamberofcomm.com.ng">
+    <title>Farm Fresh Naija - WDD231</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/contact.css">
+
+    <script src="scripts/index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-name-container">
+            <img src="images/z-splash.png" alt="Abakaliki Chamber of Commerce logo" width="60" height="60">
+            <div>
+                <h2>Farm Fresh</h2>
+                <p>Naija</p>
+            </div>
+        </div>
+        <div class="nav-theme-container">
+            <a href="#" id="hamburger"></a>
+            <nav class="navigation">
+                <a href="index.html" title="Home" class="home">Home</a>
+                <a href="farmers.html" title="Farmers" class="discover">Farmers</a>
+                <a href="join.html" title="Join Us" class="directory">Join Us</a>
+                <a href="contact.html" title="Contact Us" class="join">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="hero-section">
+            <img src="images/topography.jpeg" alt="hero image" class="hero-image" width="500" height="300">
+            <a class="keynote-btn" href="farmers.html">Buy From Our Farmers Today</a>
+        </div>
+        <h1 class="home">Home</h1>
+        <section class="event-weather-section">
+            <div class="events-container">
+                <h3>Events</h3>
+                <div class="event-calendar">
+                    <div class="event-card">
+                        <img src="images/farm-background.jpeg" alt="Event-1 image" height="20" width="80" class="event-images">
+                        <h2>Farmers' Market</h2>
+                        <p>Date: December 12, 2025</p>
+                        <p>Time: 10:00 AM - 2:00 PM</p>
+                        <p>Location: Ebonyi Farmers' Market</p>
+                        <button>Register Now</button>
+                    </div>
+                    <div class="event-card">
+                        <img src="images/topography.jpeg" alt="Event 2"  class="event-images">
+                        <h2>Agricultural Workshop</h2>
+                        <p>Date: December 15, 2025</p>
+                        <p>Time: 10:00 AM - 5:00 PM</p>
+                        <p>Location: Abakaliki Agricultural Institute</p>
+                        <button>Register Now</button>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="current-weather-container">
+                <div class="weather-info-container">
+                    <h3>Current Weather</h3>
+                    <div class="weather-info">
+                        <img id="weather-icon" src="" alt="">
+                        <div>
+                            <h4>Abakaliki</h4>
+                            <p class="current-temperature"></p>
+                            <p class="description"></p>
+                            <p class="max-temp"></p>
+                            <p class="min-temp"></p>
+                            <p class="humidity"></p>
+                            <p class="sunrise"></p>
+                            <p class="sunset"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="weather-forecast-container">
+                <div class="forecast-info-container">
+                    <h3>Weather Forecast</h3>
+                    <p class="today"></p>
+                    <p class="next-day"></p>
+                    <p class="next-two-days"></p>
+                </div>
+            </div>
+        </section>
+        <section class="business-card-container"></section>
+    </main>
+    <footer>
+        <div class="chamber-address-container">
+            <h4>Farm Fresh Naija</h4>
+            <address>
+                <p>13 Chiboy Street</p>
+                <p>Democracy Estate</p>
+                <p>Abakaliki</p>
+                <p>Ebonyi State, Nigeria</p>
+                <p>info@farmfreshnaija.org</p>
+                <P>(+234) 8051-337-03</P>
+            </address>
+        </div>
+        <div class="socials-container">
+            <a href="https//www.youtube.com/">
+                <img src="images/YouTube-logo.jpeg" alt="YouTube logo" width="60" height="60">
+            </a>
+            <a href="https://www.twitter.com">
+                <img src="images/facebook-icon.webp" alt="facebook logo" width="60" height="60">
+            </a>
+            <a href="https://www.linkedin.com/">
+                <img src="images/tiktok-icon.webp" alt="Tiktok logo" width="60" height="60">
+            </a>
+        </div>
+        <div class="last-mod-container">
+            <p>WDD231 Individual Project</p>
+            <p>Eze Solomon Nwaka</p>
+            <p>&copy;<span id="currentyear"></span> Farm Fresh Naija</p>
+            <p id="lastModified" class="yellow modified"></p>
+            <p>Video <a href="https://www.loom.com/share/065f71bc72ad4f128767a275891b3696" class="video-link">Link</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
